@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1280px;
+    min-width: 337px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    max-height: 13.25rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 2.49rem;
+    background-color:#1f2021c9;
+    background: linear-gradient( rgba(31, 32, 33, 0.79),
+  rgba(31, 32, 33, 0.79)), url(./images/stephen-leonardi-Al9Cl-b7EFU-unsplash1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3.6rem;
+}
+
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    max-width: 4.875rem;
+    max-height: 3.9rem;
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 31.25rem;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.37rem;
+}
+
+.header__menu-link:hover {
+    color: #6EBBD3;
+}
+
+.header__menu-list {
+    list-style-type: none;
+    display: block;
+    margin-right: 5rem;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+}
+
+.header__contacts-tel {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.header__contacts-call {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.header__found {
+    color: white;
+    font-size: 2.375rem;
+    font-weight: 700;
+    margin-top: 3.11rem;
+    line-height: 2.875rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main {
+    max-width: 65.8rem;
+    margin: 0 auto;
+    margin-top: 2.3125rem;
+}
+
+.cards {
+    max-width: 65.8rem;
+    margin: 0 auto;
+}
+
+.cards__sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 2.375rem;
+}
+
+.cards__sorting {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: black;
+    margin-right: 3rem;
+}
+
+.cards__params {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: black;
+    margin-right: 3rem;
+}
+
+.cards__params-arrow {
+    margin-left: 0.9375rem;
+}
+
+.cards__sorting-link {
+    text-decoration: none;
+}
+
+.cards__params:hover {
+    color: #6EBBD3;
+}
+
+.cards__cats-container {
+    max-width: 21rem;
+    max-height: 28.9rem;
+    height: 100%;
+    width: 100%;
+    background-color: #F3F3F3;
+    position: relative;
+    border-radius: 0 0 0.625rem 0.625rem;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.cards__cats-container:nth-child(1) {
+    -ms-grid-column: 1;
+	-ms-grid-row: 1;
+}
+
+.cards__cats-container:nth-child(2) {
+    -ms-grid-column: 2;
+	-ms-grid-row: 1;
+}
+
+.cards__cats-container:nth-child(3) {
+    -ms-grid-column: 3;
+	-ms-grid-row: 1;
+}
+
+.cards__cats-container:nth-child(4) {
+    -ms-grid-column: 1;
+	-ms-grid-row: 2;
+}
+
+.cards__cats-container:nth-child(5) {
+    -ms-grid-column: 2;
+	-ms-grid-row: 2;
+}
+
+.cards__cats-container:nth-child(6) {
+    -ms-grid-column: 3;
+	-ms-grid-row: 2;
+}
+
+.cards__cats-container:hover {
+    opacity: 0.7;
+}
+
+.cards__cats-pic {
+    max-width: 21rem;
+    max-height: 14.625rem;
+    width: 100%;
+    height: 100%;
+}
+
+.cards__cats-info {
+    padding-left: 1.5625rem;
+    padding-right: 1.8125rem;
+    padding-bottom: 1.5625rem;
+}
+
+.cards__cats-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    color: #000000;
+}
+
+.cards__cats-color, .cards__cats-features-age, .cards__cats-features-paws {
+    max-width: 4.9375rem;
+    max-height: 1.75rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    margin-right: 1.0625rem;
+}
+
+.cards__cats-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.625rem;
+    margin-top: -0.625rem;
+}
+
+.rectangle {
+    max-width: 0.2rem;
+    max-height: 1.4375rem;
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.cards__cats-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: #000000;
+}
+
+.cards__cats-buy {
+    background-color: #6EBBD3;
+    border-radius: 0 0 0.625rem 0.625rem;
+    min-width: 21rem;
+    min-height: 3.5625rem;
+}
+
+.cards__cats-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: 0em;
+    min-width: 21rem;
+    min-height: 3.5625rem;
+    cursor: pointer;
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+
+.cards__cats-button:hover {
+    background-color: #1F2021;
+}
+
+.cards__cats-buy-sold {
+    background-color: #1F2021;
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+
+.cards__cats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(337px, 1fr));
+    grid-gap: 1.125rem;
+    margin: 0 auto;
+    margin-bottom: 4.25rem;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+
+}
+
+.cards__cats-sale {
+    position: absolute;
+    top: 1.875rem;
+    left: 2.0625rem;
+    max-width: 4.3125rem;
+    width: 100%;
+    max-height: 2.125rem;
+    height: 100%;
+    background-color: #E52D2D;
+    border-radius: 0.625rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 2.125rem;
+    color: #FFFFFF;
+}
+
+.cards__cats-sale-span {
+    max-width: 4.3125rem;
+    width: 100%;
+    max-height: 2.125rem;
+    height: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.cards__cats-like {
+    position: absolute;
+    top: 2rem;
+    right: 1.775rem;
+    border: none;
+    background: url(./images/like.png), center;
+    cursor: pointer;
+    max-width: 2.875rem;
+    width: 100%;
+    max-height: 2.5rem;
+    height: 100%;
+    text-align: center;
+}
+
+.cards__cats-like_active {
+    background: url(./images/like_active.png), center;
+}
+
+.cards__cats-show-btn {
+    border: 0.0625rem solid #CACACA;
+    max-width: 21rem;
+    width: 100%;
+    min-height: 3.5625rem;
+    height: 100%;
+    background: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.775rem;
+    line-height: 0.9375rem;
+    color: #000000;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 5.1875rem;
+    display: block;
+}
+
+.cards__cats-show-btn:hover {
+    color: white;
+    background-color: gray;
+}
+
+.footer {
+    max-width: 61.4375rem;
+    margin: 0 auto;
+    background-color: #1F2021;
+    min-height: 14.375rem;
+    height: 100%;
+    margin-bottom: 7.125rem;
+    padding-left: 4.4375rem;
+}
+
+.footer__info-text {
+    color: white;
+    max-width: 22.9375rem;
+    width: 100%;
+}
+
+.footer__info-text1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.625rem;
+}
+
+.footer__info-text2 {
+    max-height: 3.25rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.55rem;
+    line-height: 91.2%;
+    margin-top: -0.625rem;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer__info-form {
+    margin-top: 3.75rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer__info-form-email {
+    min-width: 12.7rem;
+    width: 100%;
+    max-width: 12.7rem;
+    max-height: 1rem;
+    min-height: 1rem;
+    height: 100%;
+    border: none;
+    border-radius: 0.625rem;
+    padding-top: 1.2rem;
+    padding-left: 1.83rem;
+    padding-bottom: 1.4375rem;
+    padding-right: 2rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.775rem;
+    line-height: 0.9375rem;
+    margin-right: 0.8875rem;
+    font-family: 'Montserrat';
+}
+
+.footer__info-form-btn {
+    height: 100%;
+    min-height: 3.6rem;
+    background: #6EBBD3;
+    max-width: 13.875rem;
+    width: 100%;
+    min-width: 1rem;
+    border: none;
+    border-radius: 0.625rem;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.775rem;
+    line-height: 0.9375rem;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin-right: 3.25rem;
+}
+
+.footer__info-form-btn:hover {
+    background-color: gray;
+}
+
+.footer__info-form-checkbox {
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.footer__info-form-label {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.775rem;
+    line-height: 0.9375rem;
+    margin-top: 1.5rem;
+}
+
+.back-top {
+    text-align: right;
+    position:fixed;
+	bottom:1rem;
+    right: 0;
+}
+
+.arrow {
+    position: fixed;
+    bottom:2.5rem;
+    right: 1.3rem;
+}
+
+
+@media screen and (max-width: 1060px) {
+    .header__contacts-tel, .header__contacts-call {
+        font-size: 0.75rem;
+    }
+    .header__menu {
+        max-width: 25rem;
+    }
+    .header__menu-list {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer__info-form {
+        flex-direction: column;
+    }
+    .footer__info-form-email {
+        max-width: 10rem;
+        min-width: 1rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .footer__info-form-btn {
+        max-height: 3.6rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .header__menu {
+        max-width: 18rem;
+    }
+    .header__menu-list {
+        margin-right: 1rem;
+    }
+    .header__logo {
+        min-width: 2rem;
+        min-height: 1.3em;
+    }
+    .header {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .footer__info-form-btn {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer__info {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .footer__info-form-btn {
+        min-width: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__menu-link {
+        font-size: 0.1rem;
+    }
+    .header__contacts-call, .header__contacts-tel {
+        font-size: 0.1rem;
+    }
+}

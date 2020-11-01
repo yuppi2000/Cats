@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+        <a href="#"><img class="header__logo" src="./images/barcelona-metro-logo1.svg" alt="логотип"></a>
+        <nav>
+            <ul class="header__menu">
+                <a class="header__menu-link" href="#"><li class="header__menu-list">Main</li></a>
+                <a class="header__menu-link" href="#"><li class="header__menu-list">Gallery</li></a>
+                <a class="header__menu-link" href="#"><li class="header__menu-list">News</li></a>
+                <a class="header__menu-link" href="@"><li class="header__menu-list">Profile</li></a>
+            </ul>
+        </nav>
+        <div class="header__contacts">
+            <span class="header__contacts-tel">+544 3490 00000</span>
+            <span class="header__contacts-call">Звони скорее!</span>
+        </div>
+        </div>
+        <p class="header__found">Найдено 349 котов</p>
+    </header>
+    <main class="main">
+        <section class="cards">
+            <div class="cards__sort">
+                <span class="cards__sorting">Сортировать по:</span>
+                <a class="cards__sorting-link" href="#"><span class="cards__params">Цене <img class="cards__params-arrow" src="./images/Vector.png" alt="стрелочка"></span></a>
+                <a class="cards__sorting-link" href="#"><span class="cards__params">Возрасту <img class="cards__params-arrow" src="./images/Vector.png" alt="стрелочка"></span></a>
+            </div>
+            <div class="cards__cats">
+                <div class="cards__cats-container">
+                    <div class="cards__cats-sale"><span class="cards__cats-sale-span">-40%</span></div>
+                    <div class="cards__like">
+                        <button onclick="return like" type="button" class="cards__cats-like" aria-label="like"></button>
+                    </div>                   
+                     <img class="cards__cats-pic" src="./images/jason-briscoe-UV81E0oXXWQ-unsplash1.jpg" alt="фото кота">
+                    <div class="cards__cats-info">
+                    <h1 class="cards__cats-title">Кот полосатый</h1>
+                    <div class="cards__cats-features">
+                        <img class="rectangle" src="./images/Rectangle27.png" alt="прямоугольник">
+                        <p class="cards__cats-color">Коричневый окрас</p>
+                        <p class="cards__cats-features-age"><strong>2 мес.</strong><br> Возраст</p>
+                        <p class="cards__cats-features-paws"><strong>4</strong><br>Кол-во лап</p>
+                    </div>
+                    <span class="cards__cats-price">30 000 руб.</span>
+                    </div>
+                    <div class="cards__cats-buy">
+                       <button class="cards__cats-button" type="button" aria-label="buy">Купить</button>
+                    </div>
+                </div>
+                <div class="cards__cats-container">
+                    <div class="cards__like">
+                        <button type="button" class="cards__cats-like" aria-label="like"></button>
+                    </div>                    <img class="cards__cats-pic" src="./images/jason-briscoe-UV81E0oXXWQ-unsplash2.jpg" alt="фото кота">
+                    <div class="cards__cats-info">
+                    <h1 class="cards__cats-title">Кот полосатый</h1>
+                    <div class="cards__cats-features">
+                        <img class="rectangle" src="./images/Rectangle27.png" alt="прямоугольник">
+                        <p class="cards__cats-color">Коричневый окрас</p>
+                        <p class="cards__cats-features-age"><strong>2 мес.</strong><br> Возраст</p>
+                        <p class="cards__cats-features-paws"><strong>4</strong><br>Кол-во лап</p>
+                    </div>
+                    <span class="cards__cats-price">40 000 руб.</span>
+                    </div>
+                    <div class="cards__cats-buy-sold">
+                       <button class="cards__cats-button" type="button" aria-label="buy">Продан</button>
+                    </div>
+                </div>
+                <div class="cards__cats-container">
+                    <div class="cards__like">
+                        <button type="button" class="cards__cats-like" aria-label="like"></button>
+                    </div>                    <img class="cards__cats-pic" src="./images/jason-briscoe-UV81E0oXXWQ-unsplash3.jpg" alt="фото кота">
+                    <div class="cards__cats-info">
+                    <h1 class="cards__cats-title">Кот полосатый</h1>
+                    <div class="cards__cats-features">
+                        <img class="rectangle" src="./images/Rectangle27.png" alt="прямоугольник">
+                        <p class="cards__cats-color">Коричневый окрас</p>
+                        <p class="cards__cats-features-age"><strong>2 мес.</strong><br> Возраст</p>
+                        <p class="cards__cats-features-paws"><strong>4</strong><br>Кол-во лап</p>
+                    </div>
+                    <span class="cards__cats-price">20 000 руб.</span>
+                    </div>
+                    <div class="cards__cats-buy">
+                       <button class="cards__cats-button" type="button" aria-label="buy">Купить</button>
+                    </div>
+                </div>
+                <div class="cards__cats-container">
+                    <div class="cards__like">
+                        <button type="button" class="cards__cats-like" aria-label="like"></button>
+                    </div>                    <img class="cards__cats-pic" src="./images/jason-briscoe-UV81E0oXXWQ-unsplash1.jpg" alt="фото кота">
+                    <div class="cards__cats-info">
+                    <h1 class="cards__cats-title">Кот полосатый</h1>
+                    <div class="cards__cats-features">
+                        <img class="rectangle" src="./images/Rectangle27.png" alt="прямоугольник">
+                        <p class="cards__cats-color">Коричневый окрас</p>
+                        <p class="cards__cats-features-age"><strong>2 мес.</strong><br> Возраст</p>
+                        <p class="cards__cats-features-paws"><strong>4</strong><br>Кол-во лап</p>
+                    </div>
+                    <span class="cards__cats-price">25 000 руб.</span>
+                    </div>
+                    <div class="cards__cats-buy">
+                       <button class="cards__cats-button" type="button" aria-label="buy">Купить</button>
+                    </div>
+                </div>
+                <div class="cards__cats-container">
+                    <div class="cards__cats-sale"><span class="cards__cats-sale-span">-40%</span></div>
+                    <div class="cards__like">
+                        <button type="button" class="cards__cats-like" aria-label="like"></button>
+                    </div>                    <img class="cards__cats-pic" src="./images/jason-briscoe-UV81E0oXXWQ-unsplash3.jpg" alt="фото кота">
+                    <div class="cards__cats-info">
+                    <h1 class="cards__cats-title">Кот полосатый</h1>
+                    <div class="cards__cats-features">
+                        <img class="rectangle" src="./images/Rectangle27.png" alt="прямоугольник">
+                        <p class="cards__cats-color">Коричневый окрас</p>
+                        <p class="cards__cats-features-age"><strong>2 мес.</strong><br> Возраст</p>
+                        <p class="cards__cats-features-paws"><strong>4</strong><br>Кол-во лап</p>
+                    </div>
+                    <span class="cards__cats-price">30 000 руб.</span>
+                    </div>
+                    <div class="cards__cats-buy">
+                       <button class="cards__cats-button" type="button" aria-label="buy">Купить</button>
+                    </div>
+                </div>
+                <div class="cards__cats-container">
+                    <div class="cards__like">
+                        <button type="button" class="cards__cats-like" aria-label="like"></button>
+                    </div>
+                    <img class="cards__cats-pic" src="./images/jason-briscoe-UV81E0oXXWQ-unsplash2.jpg" alt="фото кота">
+                    <div class="cards__cats-info">
+                    <h1 class="cards__cats-title">Кот полосатый</h1>
+                    <div class="cards__cats-features">
+                        <img class="rectangle" src="./images/Rectangle27.png" alt="прямоугольник">
+                        <p class="cards__cats-color">Коричневый окрас</p>
+                        <p class="cards__cats-features-age"><strong>2 мес.</strong><br> Возраст</p>
+                        <p class="cards__cats-features-paws"><strong>4</strong><br>Кол-во лап</p>
+                    </div>
+                    <span class="cards__cats-price">10 000 руб.</span>
+                    </div>
+                    <div class="cards__cats-buy-sold">
+                        <button class="cards__cats-button" type="button" aria-label="buy">Продан</button>
+                    </div>
+                </div>
+            </div>
+            <div class="back-top" id="back-top"><a href="#top"><span></span><img class="blue_square" src="./images/Rectangle 34.png" alt="голубой квадрат"><img class="arrow" src="./images/right-arrow 3.png" alt="стрелка вверх"></a></div>
+            <button class="cards__cats-show-btn" type="button" aria-label="show more">Показать еще 20</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__info">
+            <div class="footer__info-text">
+                <p class="footer__info-text1">Успей купить!</p>
+                <p class="footer__info-text2">Подпишись и успей словить все акции</p>
+            </div>
+            <form class="footer__info-form" action="#" method="POST">
+                <input type="email" class="footer__info-form-email" required placeholder="Email">
+                <button type="submit" aria-label="subscribe" class="footer__info-form-btn">Подписаться</button>
+                <input id="footer__info-form-checkbox" type="checkbox" class="footer__info-form-checkbox" checked>
+                <label class="footer__info-form-label" for="footer__info-form-checkbox">Подписаться на новости</label>
+            </form>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
